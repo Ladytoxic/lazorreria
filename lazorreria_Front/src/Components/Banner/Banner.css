@@ -1,0 +1,17 @@
+.banner {
+    text-align: center;
+}
+
+.banner .banner-title {
+    font-size: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+
+.banner .subtitle {
+    font-size: 3.5vh;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration-line: overline;
+    text-decoration-color: blueviolet;
+}

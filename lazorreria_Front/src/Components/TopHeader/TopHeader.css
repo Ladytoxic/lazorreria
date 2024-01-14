@@ -1,0 +1,23 @@
+.top-header{
+    padding: 0.5rem 1rem;
+}
+address {
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.92);
+    display: inline-block;
+    font-size: 14px;
+}
+
+.list-items{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.92);
+    font-weight: 400;
+}

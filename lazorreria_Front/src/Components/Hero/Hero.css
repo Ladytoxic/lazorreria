@@ -1,0 +1,31 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+}
+
+.paraguas {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.l,
+.r {
+    z-index: -1;
+    opacity: 0.5;
+    top: 35%;
+    position: absolute;
+    filter: drop-shadow(0rem 0rem 0.2rem rgb(203, 203, 203));
+}
+
+.l {
+    left: 2rem;
+}
+
+.r {
+    right: 2rem;
+    transform: rotate(45deg);
+}

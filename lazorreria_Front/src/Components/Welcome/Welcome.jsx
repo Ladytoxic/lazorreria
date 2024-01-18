@@ -23,7 +23,7 @@ const Welcome = ({ titulo }) => {
 
   return (
     <>
-      <h1 className='glitch'>
+      <h1>
         Bienvenid{propText} a <br />
         {titulo}
       </h1>

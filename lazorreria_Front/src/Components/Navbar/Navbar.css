@@ -19,6 +19,7 @@ nav .nav-title {
     height: 50px;
     object-fit: contain;
     border-radius: 50%;
+    opacity: 0.6;
 }
 
 .list-items{

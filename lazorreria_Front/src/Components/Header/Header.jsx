@@ -5,7 +5,6 @@ import TopHeader from '../TopHeader/TopHeader'
 const Header = () => {
     return (
         <header>
-            <TopHeader />
             <Navbar />
         </header>
     )

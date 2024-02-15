@@ -1,8 +1,12 @@
 h1 {
   text-align: center;
   font-size: 5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  text-wrap: balance;
+  z-index: 10;
+  line-height: .9;
+  text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.75);
+  -webkit-text-stroke: 2px #f6c920;
+  color: black;
 
 }

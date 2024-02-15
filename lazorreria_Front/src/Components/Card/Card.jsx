@@ -11,8 +11,10 @@ const Card = () => {
           <h2 className='card-title'>Quienes somos</h2>
         </div>
         <div className='card-body'>
-          <img className='card-img' src={foto1} alt="foto gente hermosa" />
-          <p className='card-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aut quidem eos commodi officia unde aspernatur magni, odio quibusdam minima alias aperiam. Voluptates expedita porro ducimus. Sunt minima dolores porro!</p>
+          {/* <img className='card-img' src={foto1} alt="foto gente hermosa" /> */}
+          <p className='card-text'>LA ZORRERIA es un espacio cultural de todes y para todes.
+            Somos autogestives, x ende, tu colaboración ayuda a pagar el agua, la luz, el alquiler y mantenimiento de espacio.
+            Podes ayudarnos con algun aporte solidario al alias: la.zorreria o donando ropa para la feria americana. Simplemente podes vevir y sumarte a esta madriguera te estamos esperando</p>
         </div>
         <div className='card-footer'>
         </div>

@@ -1,13 +1,19 @@
 import Welcome from '../Welcome/Welcome';
 import './Hero.css';
-import paraguas from '../../assets/paraguaspride.png'
+import video from "../../assets/video.mp4"
+import Header from '../Header/Header';
+import zorre from "../../assets/icono zorre.png"
 
 const Hero = () => {
   return (
     <div className='hero'>
+      <Header />
+      <video className='video' src={video} autoPlay loop muted></video>
       <Welcome titulo={"La Zorreria"} />
-      <img className='paraguas l' src={paraguas} alt="" />
-      <img className='paraguas r' src={paraguas} alt="" />
+      <span>
+        <p className='sub'>El futuro es zorre</p>
+        <img className='zorre' src={zorre} alt="" />
+      </span>
     </div>
   )
 }

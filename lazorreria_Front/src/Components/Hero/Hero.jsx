@@ -2,7 +2,7 @@ import Welcome from '../Welcome/Welcome';
 import './Hero.css';
 import video from "../../assets/video.mp4"
 import Header from '../Header/Header';
-import zorre from "../../assets/icono zorre.png"
+import zorre from "../../assets/iconoZorre.png"
 
 const Hero = () => {
   return (
